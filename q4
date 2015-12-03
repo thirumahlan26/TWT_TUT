@@ -1,0 +1,30 @@
+<html>
+<body>
+	<form>
+		<table>
+		<tr><td><b>What kind of car would you like to buy? </b></td></tr>		
+			<td>
+			<input type="radio" name="car type" value="Proton" checked>Proton
+			<input type="radio" name="car type" value="Honda"> Honda
+			<input type="radio" name="car type" value="Ferari"> Ferari
+			<input type="radio" name="car type" value="Ford" > Ford</td></tr>
+		<tr><td><b>What colour do you want on your car?</td></tr>
+			<td>	
+			<select>
+  			 <option value="White">White</option>
+ 			 <option value="Red">Red</option>
+			 <option value="Black" checked>Black</option>
+ 			 <option value="Blue">Blue</option>
+			 </select></td>
+		<tr><td><b>What do you like about this car? </b></td></tr>
+		
+
+		<tr><td><b>Tell us how to get in touch with you :</b></td></tr>
+		<tr><td><b>Name:</b></td><td><input type="text" name="name"><td></td></tr>
+		<tr><td><b>E-mail:</b></td><td><input type="text" name="e-mail"><td></td></tr>
+		<tr><td><b>Tel:</b></td><td><input type="text" name="tel"><td></td></tr>
+		<tr><td><b>FAX:</b></td><td><input type="text" name="FAX"><td></td></tr>
+		</table>
+	</form>
+</body>
+</html>
